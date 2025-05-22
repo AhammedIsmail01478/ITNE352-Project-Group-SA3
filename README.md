@@ -73,4 +73,30 @@ To establish the project and run the peoject in local environment follow these s
  ```
  python client.py
  ```
- 5. 
+ 5. Use the Client - side interface to:
+     - Client input info
+     - Navigates Menu
+     - Interacts and retrieves data
+   
+  
+## **The Scripts**
+
+### **Client Script (`client.py`)**
+
+
+
+
+
+
+### **Server Script (`server.py`)**
+The packages which are used in the Server Script are:
+```
+import socket
+import threading
+import json
+import requests
+```
+
+
+
+        
