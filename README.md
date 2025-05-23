@@ -151,6 +151,48 @@ import json
 import requests
 ```
 
+The following script display the list of active clients
+```
+def display_active_clients(clients_list):
+```
 
+The following script will retrieve the data from API and saving it in JSON file
+```
+def retrieve_flight_data(API_key, icao):       
+    url = "http://api.aviationstack.com/v1/flights"
+    params = {
+        'access_key': API_key,
+        'arr_icao': icao,
+        'limit': 100
+    }
+```
 
-        
+The following Script will handle the Clients
+```
+def handle_client(conn, sockaddr, data): 
+```
+
+Creating Socket and Bindong
+```
+if __name__ == "__main__":        
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_sock:
+        server_sock.bind(('localhost', 55555))         
+        print("Server has succesfully started!")
+
+```
+
+## Acknowledgments
+
+* Usage of aviationstack.com for API to get flight details
+
+* Lectures with Dr. Mohammad A. Almeer was heavily used and supported us to create the scripts.
+
+* ChatGPT was used to clarify and learnt alot of concepts.
+
+* A big thanks to Dr. Mohammad A. Almeer for teaching us throughtout the course as a whole.
+
+ ## Conclusion  
+
+ In this project 
+
+ 
