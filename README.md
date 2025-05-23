@@ -70,7 +70,7 @@ To run the system:
 
  2. In the terminal, go to the directory containing the client and server python files.
 
- 3. Start with the server side so it can prepare for incoming reuqests which can be done by running the script:
+ 3. Start with the server side so it can prepare for incoming requests which can be done by running the script:
  ```
  python server.py
  ```
@@ -187,7 +187,7 @@ if __name__ == "__main__":
 
 * Lectures with Dr. Mohammad A. Almeer was heavily used and supported us to create the scripts.
 
-* ChatGPT was used to clarify and learnt alot of concepts.
+* ChatGPT was used to clarify and learnt alot of concepts. Such as the use of 'localhost' instead of writing full IP address
 
 * A big thanks to Dr. Mohammad A. Almeer for teaching us throughtout the course as a whole.
 
