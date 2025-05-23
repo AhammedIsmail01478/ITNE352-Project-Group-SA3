@@ -193,6 +193,6 @@ if __name__ == "__main__":
 
  ## Conclusion  
 
- In this project, We have demonstrated effective network programming such as using sockets, threading and requests modules and using them properly as required. We have successfully created a script for the server where the server is capable of retrieving flight details through API and is capable of managing connections and responding to client requests effectively through proper threading. We have also successfully created the script for client to properly establish a connection with the server and sending requests to access data requested by the client users.
+ In this project, We have demonstrated effective network programming such as using sockets, threading and requests modules and using them properly as required. We have successfully created a script for the server where the server is capable of retrieving flight details through API and is capable of managing connections and responding to client requests effectively through proper threading. We have also successfully created the script for client to properly establish a connection with the server and sending requests to access data requested by the client users. This project has enhanced our skills in network programming,API management and proper threat handling.
 
  
