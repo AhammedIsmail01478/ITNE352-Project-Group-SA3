@@ -39,7 +39,7 @@ A client-server system that exchanges information about flights at a certain air
 
 ## **Requirements**
 
-To establish the project and run the peoject in local environment follow these steps which are given below:
+To establish the project and run the project in local environment follow these steps which are given below:
 
 1. **Install Python** Install the latest version of python from python's original website, which is:(https://www.python.org/downloads/)
 2. Clone the repository:
@@ -59,14 +59,14 @@ git clone https://github.com/AhammedIsmail01478/ITNE352-Project-Group-SA3
 
 5. **Get a FlightAPI Key**
 - Register on [aviationstack.com](https://aviationstack.com/)  
-- Replace `"api_key"` in the server script with your API_KEY.
+- Replace the API key used in the server with your own key, a comment has been provided to show the location of the key
 
 
 ## **How to Run**
  
 To run the system:
 
- 1. Open one terminal window for server and open terminal windows for multiple clients.
+ 1. Open one terminal window for server and open multiple terminal windows for multiple clients.
 
  2. In the terminal, go to the directory containing the client and server python files.
 
@@ -80,7 +80,7 @@ To run the system:
  python client.py
  ```
  5. Use the Client - side interface to:
-     - Client input info
+     - Input Client username
      - Navigates Menu
      - Interacts and retrieves data
    
